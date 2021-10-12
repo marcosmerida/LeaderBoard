@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div>
-        <input type="text" name="" id="hola" placeholder="escribe tu nombre">
+  </head>
+  <body>
+    <!--? Div that contains all the elements -->
+    <div id="main-container">
+      <div>
+        <h2>Leaderboard</h2>
+      </div>
+        <!--! Title and refresh button -->
+        <div id="title1">
+          <h3>Recent scores</h3>
+          <button>Refresh</button>
+        </div>
+        <!--? List of scores -->
+          <ul>
+            <li>Name: 100</li>
+            <li>Name: 20</li>
+            <li>Name: 50</li>
+            <li>Name: 10</li>
+            <li>Name: 15</li>
+            <li>Name: 40</li>
+            <li>Name: 12.5</li>
+            <li>Name: 80</li>
+            <li>Name: 5</li>
+          </ul>
+        <!--? Form -->
+        <div id="form-container">
+          <h3>Add your score</h3>
+          <form id="form1">
+            <input type="”text”" id="name" placeholder="Your name" /><br />
+            <input type="text" id="score" placeholder="Your score" /><br />
+            <button type="submit" form="form1" value="Submit">Submit</button>
+          </form>
+        </div>
     </div>
-</body>
+  </body>
 </html>
