@@ -1,4 +1,4 @@
-# LeaderBoard
+`# LeaderBoard
 
 This is the first milestone for the Leaderboard project, which includes a plain HTML basic design and a webpack setup.
 ![screenshot](screenshots/screenshot1.png)
