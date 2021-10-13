@@ -21,7 +21,7 @@ To get a local copy up and running follow these simple example steps.
 - ```npm start```
 
 ### Prerequisites
-
+|
 - IDE to edit and run the code (I've used Visual Studio Code 🔥).
 
 ### Usage
