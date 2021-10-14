@@ -32,11 +32,8 @@ const postData = async () => {
   }
 };
 
-refresh.addEventListener('click', () => {
-  window.location.reload();
-});
-
 const getScores = async () => {
+  ul.innerHTML = '';
   const response = await fetch(fetchURL);
   const scoreData = await response.json();
   const { result } = scoreData;
@@ -58,6 +55,9 @@ const getScores = async () => {
   }
 };
 
-submit.addEventListener('click', postData);
+refresh.addEventListener('click', () => {
+  getScores();
+});
 
+submit.addEventListener('click', postData);
 getScores();
