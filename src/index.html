@@ -14,27 +14,47 @@
   </head>
   <body>
     <!--? Div that contains all the elements -->
-    <div id="main-container">
-      <div>
-        <h2>Leaderboard</h2>
+    <div class="container-fluid m-auto text-center" id="divmain">
+      <div class="row mb-4">
+        <div class="col-md-12">
+          <h2>Leaderboard</h2>
+        </div>
       </div>
-      <!--! Title and refresh button -->
-      <div id="title1">
-        <h3>Recent scores</h3>
-        <button id="refresh">Refresh</button>
+      <div class="row mb-3 justify-content-center">
+        <!--! Title and refresh button -->
+        <div class="col-md-2 d-flex text-center">
+          <h5>Recent scores</h5>
+        </div>
+        <div class="col-md-1">
+          <button id="refreshbtn">refresh</button>
+        </div>
+        <div class="col-md-3">
+          <h5 id="addscores">Add your score</h5>
+        </div>
       </div>
-      <!--? List of scores -->
-      <ul id="list"></ul>
-      <!--? Form -->
-      <div id="form-container">
-        <h3>Add your score</h3>
-        <form id="form1">
-          <input type="”text”" id="name" placeholder="Your name" /><br />
-          <input type="text" id="score" placeholder="Your score" /><br />
-          <button type="submit" form="form1" value="Submit" id="submit">
-            Submit
-          </button>
-        </form>
+      <div class="row justify-content-center">
+        <div class="col-md-3 listdiv">
+          <!--? List of scores -->
+          <ul id="list"></ul>
+        </div>
+        <!--? Form -->
+        <div class="col-md-3">
+            <input
+              type="text"
+              id="user"
+              placeholder="Your name"
+              class="mb-2"
+              onfocus="this.value=''"
+            /><br />
+            <input
+              type="text"
+              id="score"
+              placeholder="Your score"
+              class="mb-2"
+              onfocus="this.value=''"
+            /><br />
+            <button type="submit" id="submit">Submit</button>
+        </div>
       </div>
     </div>
 
