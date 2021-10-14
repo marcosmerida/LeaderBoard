@@ -1,36 +1,8 @@
-#main-container {
-  max-width: 25%;
-}
-
-#title1 {
-  max-width: max-content;
-  align-items: center;
-  display: inline-flex;
-}
-
-#title1 button {
-  height: 1.5vw;
-  margin-left: 0.5vw;
+body {
+  width: 100%;
+  max-width: 90%;
 }
 
 ul {
-  border: 1px solid black;
-  max-width: 10vw;
   list-style: none;
-}
-
-#form-container {
-  text-align: right;
-  float: right;
-  margin-top: -18.6vw;
-}
-
-#form-container button {
-  margin-top: 1vw;
-}
-
-#name,
-#score {
-  width: 8.4vw;
-  margin-top: 1vw;
 }

@@ -1,6 +1,7 @@
-`# LeaderBoard
+# LeaderBoard
 
-This is the first milestone for the Leaderboard project, which includes a plain HTML basic design and a webpack setup.
+This is the second milestone for the Leaderboard project, which includes the function to send and receive the data from the API.
+
 ![screenshot](screenshots/screenshot1.png)
 
 ## Built With
