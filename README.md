@@ -1,8 +1,8 @@
 # LeaderBoard
 
-This is the second milestone for the Leaderboard project, which includes the function to send and receive the data from the API.
+This is the third and last milestone for the Leaderboard project, which includes the project completed styled with CSS.
 
-![screenshot](screenshots/screenshot1.png)
+![screenshot](screenshots/screenshot2.png)
 
 ## Built With
 
@@ -29,6 +29,7 @@ To get a local copy up and running follow these simple example steps.
 
 - For anyone who wants to practice HTML5 and CSS.
 - Implementation of webpack set up.
+- Implementation of API's.
 
 ## Authors
 
