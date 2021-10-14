@@ -25,7 +25,7 @@ const postData = async () => {
           'Content-type': 'application/json; charset=UTF-8',
         },
       });
-      window.location.reload();
+      getScores();
     } catch (error) {
       // empty
     }
