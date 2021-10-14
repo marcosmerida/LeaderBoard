@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  width: 100%;
+  max-width: 100%;
+  font-family: 'Architects Daughter', cursive;
+}
+
+ul {
+  list-style: none;
+}
+
+#user,
+#score {
+  border: 1px solid grey;
+  outline: none;
+}
+
+.title1,
+.title2,
+.title3,
+.title {
+  border-bottom: 1px solid black;
+  color: white;
+}
+
+.title {
+  background-color: grey;
+  box-shadow: -2px 6px 109px 35px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: -2px 6px 109px 35px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: -2px 6px 109px 35px rgba(0, 0, 0, 0.71);
+}
+
+.title3 {
+  border-right: 1px solid black;
+}
+
+#refreshbtn {
+  background: none;
+  outline: none;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+#refreshbtn:hover {
+  text-decoration: underline;
+}
+
+#submit {
+  background: none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 25%;
+  transition: 0.2s;
+}
+
+#submit:hover {
+  background-color: black;
+  color: white;
+  font-size: 1.3vw;
+}
+
+ul li {
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+ul li:hover {
+  background-color: goldenrod;
+}
