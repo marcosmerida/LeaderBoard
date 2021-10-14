@@ -10,28 +10,6 @@ const ul = document.getElementById('list');
 const id = 'myleaderboard1234';
 const fetchURL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores/`;
 
-const postData = async () => {
-  if (user1.value === '' || score1.value === '') {
-    // empty
-  } else {
-    try {
-      await fetch(fetchURL, {
-        method: 'post',
-        body: JSON.stringify({
-          user: user1.value,
-          score: score1.value,
-        }),
-        headers: {
-          'Content-type': 'application/json; charset=UTF-8',
-        },
-      });
-      getScores();
-    } catch (error) {
-      // empty
-    }
-  }
-};
-
 const getScores = async () => {
   ul.innerHTML = '';
   const response = await fetch(fetchURL);
@@ -52,6 +30,28 @@ const getScores = async () => {
       liTag.className = 'border border-secondary';
       ul.appendChild(liTag);
     });
+  }
+};
+
+const postData = async () => {
+  if (user1.value === '' || score1.value === '') {
+    // empty
+  } else {
+    try {
+      await fetch(fetchURL, {
+        method: 'post',
+        body: JSON.stringify({
+          user: user1.value,
+          score: score1.value,
+        }),
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+        },
+      });
+      getScores();
+    } catch (error) {
+      // empty
+    }
   }
 };
 
